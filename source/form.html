@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+</head>
+<body class="page-body">
+  <header class="header">
+    <a class="header__logo logo">
+      <img src="" width="" height="" alt="SuperCat.">
+      <img src="" width="" height="" alt="Cat Energy.">
+    </a>
+    <nav class="navigation">
+      <button class="navigation__toggle" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
+      <div class="navigation__wrapper">
+        <ul class="navigation__list site-list">
+          <li class="site-list__item site-list__item--current">
+            <a>Главная</a>
+          </li>
+          <li class="site-list__item">
+            <a href="catalog.html">Каталог продукции</a>
+          </li>
+          <li class="site-list__item">
+            <a href="form.html">Подбор программы</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main class="main-wrapper">
+    <section class="program-select">
+      <div class="program-select__wrapper">
+        <h1 class="program-select__title">Подбор программы</h1>
+        <p class="program-select__description">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+        <form class="program-select__form client-form" action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="program-select__cat-info cat-info">
+            <ul class="program-select__list cat-info__list">
+              <li class="program-select__item cat-info__item">
+                <label for="cat-name" class="cat-info__title">Имя:*</label>
+                <input type="text" class="cat_info__input" id="cat-name" name="cat-name" value="Барсик" >
+              </li>
+              <li class="program-select__item cat-info__item">
+                <label for="cat-weight" class="cat-info__title">Вес (кг):*</label>
+                <input type="text" class="cat_info__input" id="cat-weight" name="cat-weight" value="7" >
+              </li>
+              <li class="program-select__item cat-info__item">
+                <label for="cat-age" class="cat-info__title">Возраст (лет):</label>
+                <input type="text" class="cat_info__input" id="cat-age" name="cat-age" value="7" >
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="program-select__purpose purpose">
+            <h2 class="visually-hidden">Ваша цель:</h2>
+            <ul class="program-select__list purpose__list">
+              <li class="program-select__item purpose__item">
+                <label class="purpose__control">
+                <input type="radio" class="purpose__input" name="weight-loss" value="weight-loss" checked>
+                <span class="purpose__label">Похудение</span>
+              </label>
+              </li>
+              <li class="program-select__item purpose__item">
+                <label class="purpose__control">
+                <input type="radio" class="purpose__input" name="weight-gain" value="weight-gain">
+                <span class="purpose__label">Набор массы</span>
+              </label>
+              </li>
+              <li class="program-select__item purpose__item">
+                <label class="purpose__control">
+                <input type="radio" class="purpose__input" name="no-answer" value="no-answer">
+                <span class="purpose__label">Не знаю (нужен ваш совет)</span>
+              </label>
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="program-select__contacts client-contacts">
+            <h2 class="program-select__subtitle client-contacts__title">Контактные данные (владельца кота)</h2>
+            <ul class="program-select__list client-contacts__list">
+              <li class="program-select__item client-contacts__item">
+                <label for="mail" class="client-contacts__email">E-mail:*</label>
+                <input type="email" class="client-contacts__input" id="mail" name="mail" value="kuklachev@gmail.com">
+              </li>
+              <li class="program-select__item client-contacts__item">
+                <label for="telephone" class="client-contacts__telephone">Телефон:*</label>
+                <input type="tel" class="client-contacts__input" id="telephone" name="telephone" value="8 (960) 900-60-90">
+              </li>
+            </ul>
+          </fieldset>
+          <fieldset class="program-select__comments order-comments"></fieldset>
+          <h2 class="program-select__subtitle order-comments__title">Комментарий</h2>
+          <textarea class="order-comments__text" name="comment" id="comment" cols="30" rows="10" placeholder="Расскажите обо всех повадках кота."></textarea>
+          <fieldset class="program-select__additional additional">
+            <h2 class="program-select__subtitle additional__title">Дополнительно</h2>
+            <ul class="program-select__additional additional__list">
+              <li class="program-select__additional additional__item">
+                <label class="additional__control">
+                <input type="checkbox" class="additional__input" name="sweetener" value="sweetener" checked>
+                <span class="additional__label">Сахарозаменитель</span>
+              </label>
+              </li>
+              <li class="program-select__item additional__item">
+                <label class="additional__control">
+                <input type="checkbox" class="additional__input" name="water" value="water">
+                <span class="additional__label">Питьевая вода</span>
+              </label>
+              </li>
+              <li class="program-select__item additional__item">
+                <label class="additional__control">
+                <input type="checkbox" class="additional__input" name="milk" value="milk">
+                <span class="additional__label">Молоко</span>
+              </label>
+              </li>
+              <li class="program-select__item additional__item">
+                <label class="additional__control">
+                <input type="checkbox" class="additional__input" name="vitamins" value="vitamins">
+                <span class="additional__label">Витамины</span>
+              </label>
+              </li>
+            </ul>
+          </fieldset>
+          <button class="program-select__button client-form__button">Отправить заявку</button>
+          <small>* — Обязательные поля</small>
+        </form>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="contacts__wrapper">
+        <h2 class="footer__title">Наши контакты</h2>
+        <p class="contacts__partner-text">приглашаем к сотрудничеству дилеров!</p>
+        <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+      </div>
+      <div class="contacts__map map">
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <h2 class="visually-hidden">Мы в соцсетях</h2>
+      <div class="footer__logo">
+        <a href="#" class="logo__link">
+          <img src="" width="" height="" alt="Логотип Cat Energy.">
+        </a>
+      </div>
+      <div class="footer__social">
+        <ul class="social__list">
+          <li class="social__item">
+            <a href="https://vk.com/htmlacademy" class="social__link social__link--vk"></a>
+          </li>
+          <li class="social__item">
+            <a href="https://www.youtube.com/user/htmlacademyru" class="social__link social__link--youtube"></a>
+          </li>
+          <li class="social__item">
+            <a href="https://t.me/htmlacademy" class="social__link social__link--telegram"></a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copyright copyright">
+        <a href="https://htmlacademy.ru/intensive/adaptive" class="copyright-link"></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
