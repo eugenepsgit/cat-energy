@@ -1,0 +1,56 @@
+.demo__wrapper {
+  background-color: #eaeaea;
+  padding-top: 25px;
+  padding-bottom: 40px;
+}
+
+.demo__title {
+  margin-bottom: 40px;
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: $accent-color;
+  text-align: left;
+}
+.demo__intro {
+  margin-bottom: 20px;
+  font-family: $lato;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: $text-color;
+}
+
+.demo__list {
+  margin-bottom: 20px;
+}
+
+.demo__number {
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: $accent-color;
+  text-transform: uppercase;
+}
+
+.demo__description {
+  font-family: $lato;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: $text-color;
+}
+
+.demo__total {
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.demo__slider {
+  min-height: 256px;
+}

@@ -1,0 +1,32 @@
+.contacts {
+  background-color: $background-basic;
+}
+
+.contacts__adress-wrapper {
+  padding: 26px 0 26px;
+}
+
+.contacts__partner-text {
+  font-family: $oswald;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $accent-color;
+  text-transform: uppercase;
+}
+
+.contacts__adress {
+  font-family: $lato;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: $text-color;
+}
+
+.contacts__map {
+  margin-right: -20px;
+  margin-left: -20px;
+  min-height: 362px;
+}

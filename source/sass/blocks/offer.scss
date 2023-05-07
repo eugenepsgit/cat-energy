@@ -1,0 +1,37 @@
+.offer {
+  font-family: "Oswald";
+  font-weight: 400;
+  color: #fff;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.offer__wrapper {
+  background-image: linear-gradient($background-second 66%, $background-basic 33%);
+}
+
+.offer__title {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 36px;
+  line-height: 36px;
+}
+
+.offer__slogan {
+  margin: 0;
+  margin-bottom: 29px;
+  font-size: 14px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.offer__image {
+  color: $accent-color;
+}
+
+.offer__link {
+  display: block;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 8px 0 8px;
+}

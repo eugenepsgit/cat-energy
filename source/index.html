@@ -4,16 +4,17 @@
 <head>
   <meta charset="UTF-8">
   <title>CAT ENERGY</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page-body">
   <header class="header">
-    <div class="header__wrapper">
+    <div class="header__wrapper container">
     <a class="header__type type">
-      <img src="" width="" height="" alt="SuperCat.">
+      <img src="./img/type-mobile.svg" width="33px" height="38px" alt="SuperCat.">
     </a>
     <a class="header__logo logo">
-      <img src="" width="" height="" alt="Cat Energy.">
+      <img src="./img/logo-cat-energy.svg" width="101px" height="18px" alt="Cat Energy.">
     </a>
     <nav class="navigation">
       <button class="navigation__toggle" type="button">
@@ -37,22 +38,22 @@
   </header>
   <main class="main">
     <section class="offer">
-      <div class="offer__wrapper">
+      <div class="offer__wrapper container">
         <h1 class="offer__title">Функциональное питание для котов</h1>
         <p class="offer__slogan">Занялся собой? Займись котом!</p>
-        <a class="offer__link button">подобрать программу</a>
-        <img class="offer__image" src="" alt="Функциональное питание Cat Energy.">
+        <img class="offer__image" src="" width="280px" height="270px" alt="Функциональное питание Cat Energy.">
+        <a class="offer__link button" href="form.html">подобрать программу</a>
       </div>
     </section>
     <section class="products">
-      <div class="products__wrapper">
+      <div class="products__wrapper container">
         <h2 class="visually-hidden">Наши продукты</h2>
         <ul class="products__list">
           <li class="products__item">
             <h3 class="products__title">похудение</h3>
             <p class="products__description">Ваш кот весит больше собаки и почти утратил способность лазить по деревьям?
               Пора на диету! Cat Energy Slim поможет вашему питомцу сбросить лишний вес.</p>
-            <a class="products__link">Каталог SLIM</a>
+            <a class="products__link" href="#">Каталог SLIM</a>
           </li>
           <li class="products__item">
             <h3 class="products__title">набор массы</h3>
@@ -64,7 +65,7 @@
       </div>
     </section>
     <section class="advantages">
-      <div class="advantages__wrapper">
+      <div class="advantages__wrapper container">
         <h2 class="visually-hidden">Наши преимущества</h2>
         <p class="advantages__title">Как это работает</p>
         <ul class="advantages__list">
@@ -85,7 +86,7 @@
       </div>
     </section>
     <section class="demo">
-      <div class="demo__wrapper">
+      <div class="demo__wrapper container">
         <h2 class="demo__title">Живой пример</h2>
         <p class="demo__intro">Борис сбросил 5 кг за 2 месяца, просто заменив свой обычный корм на Cat Energy Slim.
           Отличный результат без изнуряющих тренировок! При этом он не менял своих привычек и по-прежнему спит по 16
@@ -95,29 +96,31 @@
           <dd class="demo__description">снижение веса</dd>
           <dt class="demo__number">60 дней</dt>
           <dd class="demo__description">затрачено времени</dd>
-          <dt class="demo__number">15000 руб.</dt>
-          <dd class="demo__description">затраты на питание</dd>
+          <dt class="demo__total">затраты на питание:</dt>
+          <dd class="demo__total">15000 руб.</dd>
         </dl>
         <div class="demo__slider"></div>
       </div>
     </section>
     <section class="contacts">
-      <div class="contacts__wrapper">
-        <h2 class="footer__title">Наши контакты</h2>
-        <p class="contacts__partner-text">приглашаем к сотрудничеству дилеров!</p>
-        <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+      <div class="contacts__wrapper container">
+        <h2 class="visually-hidden">Наши контакты</h2>
+        <div class="contacts__adress-wrapper">
+          <p class="contacts__partner-text">приглашаем к сотрудничеству дилеров!</p>
+          <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </div>
       <div class="contacts__map map"></div>
     </div>
     </section>
   </main>
-  <footer class="footer">
-    <div class="footer__wrapper">
-      <div class="footer__logo logo">
+  <footer class="page-footer">
+    <div class="page-footer__wrapper container">
+      <div class="page-footer__logo logo">
         <a href="#" class="logo__link">
           <img src="" width="" height="" alt="Логотип Cat Energy.">
         </a>
       </div>
-      <div class="footer__social social">
+      <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link social__link--vk" href="https://vk.com/htmlacademy"></a>
@@ -130,9 +133,11 @@
           </li>
         </ul>
       </div>
-      <div class="footer__copyright copyright">
-        <a class="copyright-link" href="https://htmlacademy.ru/intensive/adaptive"></a>
+      <div class="page-footer__copyright copyright">
         <a class="copyright__text-link"  href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <a class="copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
+          <img class="copyright__logo" src="" alt="Логотип HTML академии">
+        </a>
       </div>
     </div>
   </footer>
