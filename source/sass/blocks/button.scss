@@ -1,7 +1,16 @@
 .button {
+  display: block;
+  padding: 10px 0;
   background-color: $btn-background-basic;
   color: $btn-color;
+  font-family: $oswald;
+  font-size: 16px;
+  line-height: 20px;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  &--grey {
+    background-color: $btn-background-second;
+    color: $btn-color-second;
+  }
 }

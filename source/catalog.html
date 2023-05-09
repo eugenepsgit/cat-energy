@@ -4,11 +4,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Каталог продукции</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body class="page-body">
   <header class="header">
-    <div class="header__wrapper">
+    <div class="header__wrapper container">
       <a class="header__type type">
         <img src="" width="" height="" alt="SuperCat.">
       </a>
@@ -35,14 +36,16 @@
       </div>
     </div>
   </header>
-  <main class="main">
-    <h1 class="main__title">Каталог продукции</h1>
+  <main class="main-catalog">
+    <div class="main-catalog__wrapper container">
+      <h1 class="main-catalog__title">Каталог продукции</h1>
+    </div>
     <section class="catalog">
-      <div class="catalog__wrapper">
+      <div class="catalog__wrapper container">
         <h2 class="visually-hidden">Основные товары</h2>
         <ul class="catalog__list">
           <li class="product-card">
-            <a href="" class="product-card__link">
+            <a href="" class="product-card__image-link">
               <img class="product-card__image" src="" width="" height="" alt="Корм со вкусом курицы.">
             </a>
             <a href="#" class="product-card__link">
@@ -158,18 +161,18 @@
               <dt class="features__option">Цена</dt>
               <dd class="features__value">500&nbsp;₽</dd>
             </dl>
-            <a class="product-card__button order-button">Заказать</a>
+            <a class="product-card__button button">Заказать</a>
           </li>
           <li class="product-card show-all">
             <h3 class="show-all__title">Показать еще 100500 товаров</h3>
             <p class="show-all__description">На самом деле вкусов гораздо больше!</p>
-            <button class="show-all__button button--grey" type="button">показать все</button>
+            <a class="show-all__button button button--grey" type="button">показать все</a>
           </li>
         </ul>
       </div>
     </section>
     <section class="additional-goods">
-      <div class="additional-goods__wrapper">
+      <div class="additional-goods__wrapper container">
         <h2 class="additional-goods__title">Дополнительные товары</h2>
         <ul class="additional-goods__list">
           <li class="add-card">
@@ -203,7 +206,7 @@
       </div>
     </section>
     <section class="contacts">
-      <div class="contacts__wrapper">
+      <div class="contacts__wrapper container">
         <h2 class="footer__title">Наши контакты</h2>
         <p class="contacts__partner-text">приглашаем к сотрудничеству дилеров!</p>
         <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
@@ -211,14 +214,14 @@
     </div>
     </section>
   </main>
-  <footer class="footer">
-    <div class="footer__wrapper">
-      <div class="footer__logo logo">
+  <footer class="page-footer">
+    <div class="page-footer__wrapper container">
+      <div class="page-footer__logo logo">
         <a href="#" class="logo__link">
           <img src="" width="" height="" alt="Логотип Cat Energy.">
         </a>
       </div>
-      <div class="footer__social social">
+      <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
             <a class="social__link social__link--vk" href="https://vk.com/htmlacademy"></a>
@@ -231,9 +234,11 @@
           </li>
         </ul>
       </div>
-      <div class="footer__copyright copyright">
-        <a class="copyright-link" href="https://htmlacademy.ru/intensive/adaptive"></a>
+      <div class="page-footer__copyright copyright">
         <a class="copyright__text-link"  href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+        <a class="copyright-link" href="https://htmlacademy.ru/intensive/adaptive">
+          <img class="copyright__logo" src="" alt="Логотип HTML академии">
+        </a>
       </div>
     </div>
   </footer>

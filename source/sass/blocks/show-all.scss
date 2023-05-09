@@ -1,0 +1,22 @@
+.show-all {
+  padding-top: 53px;
+}
+
+.show-all__title {
+  margin-bottom: 8px;
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: $accent-color-add;
+  text-transform: uppercase;
+}
+
+.show-all__description {
+  margin-bottom: 21px;
+  font-family: $lato;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: $text-color;
+}
