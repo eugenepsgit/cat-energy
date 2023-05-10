@@ -1,0 +1,17 @@
+.cat-info {
+  padding-bottom: 24px;
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $text-color;
+}
+
+.cat-info__label {
+  margin-right: 13px;
+}
+
+.cat-info__input {
+  padding: 14px 0 13px 20px;
+  border: 1px solid $input-border-color;
+}

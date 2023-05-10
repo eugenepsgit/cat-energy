@@ -9,8 +9,14 @@
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+
   &--grey {
     background-color: $btn-background-second;
     color: $btn-color-second;
+  }
+
+  &--form {
+    padding: 7px 0;
+    width: 100%;
   }
 }

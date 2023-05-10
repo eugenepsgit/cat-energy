@@ -1,0 +1,24 @@
+.additional {
+  padding-bottom: 34px;
+}
+
+.additional__legend {
+  margin-bottom: 34px;
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: $accent-color;
+}
+
+.additional__input {
+  margin-right: 16px;
+}
+
+.additional__label {
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $accent-color;
+}

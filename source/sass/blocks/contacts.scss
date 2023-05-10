@@ -1,8 +1,8 @@
-.contacts {
-  background-color: $background-basic;
+.contacts__wrapper {
+  background-color: #f2f2f2
 }
 
-.contacts__adress-wrapper {
+.contacts__address-wrapper {
   padding: 26px 0 26px;
 }
 
@@ -16,7 +16,7 @@
   text-transform: uppercase;
 }
 
-.contacts__adress {
+.contacts__address {
   font-family: $lato;
   font-style: normal;
   font-weight: 400;

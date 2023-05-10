@@ -1,0 +1,37 @@
+.client-contacts {
+  padding-top: 26px;
+  padding-bottom: 24px;
+}
+
+.client-contacts__legend {
+  margin-bottom: 35px;
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 26px;
+  color: $accent-color;
+}
+
+.client-contacts__item {
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+  color: $text-color;
+}
+
+.client-contacts__label {
+  margin-right: 10px;
+}
+
+.client-contacts__input {
+  border: 1px solid $input-border-color-sec;
+
+  &--email {
+    padding: 14px 0 13px 15px;
+  }
+
+  &--tel {
+    padding: 15px 0 14px 15px;
+  }
+}

@@ -1,0 +1,14 @@
+.site-list {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: $accent-color;
+  text-align: center;
+}
+
+.site-list__link {
+  display: block;
+  padding: 22px 0 24px;
+  color: $accent-color;
+}
