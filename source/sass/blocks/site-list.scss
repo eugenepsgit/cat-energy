@@ -5,10 +5,37 @@
   line-height: 20px;
   color: $accent-color;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    column-gap: 35px;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: flex;
+    column-gap: 35px;
+  }
+
+}
+
+.site-list__item {
+  @media (min-width: $tablet-width) {
+    padding-bottom: 12px;
+  }
 }
 
 .site-list__link {
   display: block;
   padding: 22px 0 24px;
   color: $accent-color;
+
+  @media (min-width: $tablet-width) {
+    display:inline-block;
+    padding: 0;
+  }
+
+  @media (min-width: $desktop-width) {
+    display: inline-block;
+    padding: 0;
+  }
 }
