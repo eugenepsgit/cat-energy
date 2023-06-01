@@ -1,0 +1,110 @@
+.demo-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 32px;
+  row-gap: 34px;
+  justify-content: center;
+
+  @media (min-width:$tablet-width) {
+    justify-content: start;
+    column-gap: 42px;
+  }
+
+  @media (min-width:$desktop-width) {
+    row-gap: 60px;
+  }
+}
+
+.demo-list__option {
+  position: relative;
+  flex-basis: calc(50% - 18px);
+  padding: 14px 0 17px;
+  text-align: center;
+  border: 1px solid #cdcdcd;
+
+  @media (min-width:$tablet-width) {
+    flex-basis: calc(25% - 23px);
+    padding: 15px 0 20px;
+  }
+
+  @media (min-width:$desktop-width) {
+    flex-basis: 26%;
+  }
+}
+
+.demo-list__number {
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  color: $accent-color;
+  text-transform: uppercase;
+
+  @media (min-width:$tablet-width) {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}
+
+.demo-list__description {
+  position: absolute;
+  width: 77px;
+  font-family: $lato;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  color: $text-color;
+  background-color: #eaeaea;
+  bottom: -6px;
+  right: 0;
+  left: 0;
+  margin: 0 auto;
+  z-index: 1;
+
+  @media (min-width:$tablet-width) {
+    font-size: 14px;
+    line-height: 14px;
+    width: max-content;
+    padding: 0 7px;
+    background-color: $background-basic;
+  }
+
+  @media (min-width:$desktop-width) {
+    background-color: #eaeaea;
+  }
+}
+
+.demo-list__result {
+  display: flex;
+  column-gap: 2px;
+
+  @media (min-width:$tablet-width) {
+    margin-left: auto;
+    flex-direction: column;
+    row-gap: 9px;
+    align-self: center;
+    text-align: right;
+  }
+  @media (min-width:$desktop-width) {
+    flex-direction: row;
+    flex-basis: 53%;
+    justify-content: space-between;
+    margin: 0;
+  }
+}
+
+.demo-list__total {
+  font-family: $oswald;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-transform: uppercase;
+
+  @media (min-width:$tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  @media (min-width:$desktop-width) {
+  }
+}
