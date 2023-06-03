@@ -1,5 +1,6 @@
 .contacts__wrapper {
   position: relative;
+  background-color: #f2f2f2;
 }
 
 .contacts__address-wrapper {
@@ -15,6 +16,7 @@
     position: absolute;
     top: 95px;
     width: 30%;
+    background-color: $background-basic;
   }
 }
 
