@@ -12,7 +12,7 @@
   @media (min-width:$desktop-width) {
     display: grid;
     grid-template-columns: 1fr 224px 1fr;
-    padding: 0 0 75px;
+    padding-bottom: 75px;
     background-color: $background-basic;
     background-image: linear-gradient($background-basic 30%, #eaeaea 30%, #eaeaea 100%);
   }

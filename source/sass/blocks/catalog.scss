@@ -4,4 +4,16 @@
 }
 
 .catalog__list {
+  display: flex;
+  row-gap: 19px;
+  flex-wrap: wrap;
+
+  @media (min-width:$tablet-width) {
+    gap: 60px;
+  }
+
+  @media (min-width:$desktop-width) {
+    row-gap: 63px;
+    column-gap: 80px;
+  }
 }
