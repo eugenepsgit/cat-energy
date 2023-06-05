@@ -18,5 +18,9 @@
   &--form {
     padding: 7px 0;
     width: 100%;
+
+    @media (min-width:$tablet-width) {
+      padding: 13px 0;
+    }
   }
 }

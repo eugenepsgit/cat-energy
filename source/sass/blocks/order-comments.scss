@@ -1,18 +1,20 @@
-.order-comments {
-  padding-bottom: 23px;
-}
-
 .order-comments__legend {
+  width: 143px;
   margin-bottom: 38px;
-  font-family: $oswald;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 26px;
-  color: $accent-color;
+
+  @media (min-width:$tablet-width) {
+    width: 210px;
+    margin-bottom: 76px;
+  }
+
+  @media (min-width:$desktop-width) {
+    width: 222px;
+  }
 }
 
 .order-comments__text {
   width: 100%;
+  min-height: 152px;
   box-sizing: border-box;
   padding: 9px 12px 0 15px;
   border: 1px solid $input-border-color;
@@ -22,4 +24,12 @@
   line-height: 18px;
   color: $accent-color;
   text-transform: uppercase;
+
+  @media (min-width:$tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 12px 0 19px;
+    min-height: 174px;
+  }
+
 }

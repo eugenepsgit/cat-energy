@@ -1,17 +1,47 @@
 .cat-info {
-  padding-bottom: 24px;
   font-family: $oswald;
   font-weight: 400;
   font-size: 16px;
   line-height: 18px;
   color: $text-color;
+
+  @media (min-width:$tablet-width) {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.cat-info__list {
+  display: flex;
+  flex-direction: column;
+  row-gap: 17px;
+
+  @media (min-width:$tablet-width) {
+    row-gap: 20px;
+  }
+
+  @media (min-width:$desktop-width) {
+  }
+}
+
+.cat-info__item {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
 }
 
 .cat-info__label {
   margin-right: 13px;
+  text-transform: uppercase;
 }
 
 .cat-info__input {
   padding: 14px 0 13px 20px;
   border: 1px solid $input-border-color;
+  flex-grow: 1;
+  text-transform: uppercase;
+
+  @media (min-width:$tablet-width) {
+    padding: 11px 0 11px 20px;
+  }
 }
