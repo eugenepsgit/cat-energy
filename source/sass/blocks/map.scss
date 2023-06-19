@@ -1,0 +1,11 @@
+.map__interactive {
+  display: block;
+  width: 100vw;
+  z-index: 2;
+}
+
+.map__static {
+  display: block;
+  width: 100vw;
+  z-index: 1;
+}

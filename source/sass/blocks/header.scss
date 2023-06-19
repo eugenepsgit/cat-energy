@@ -1,5 +1,16 @@
 .header__wrapper {
   position: relative;
+  min-height: 66px;
+
+  &::before {
+    position: absolute;
+    content: "";
+    height: 1px;
+    background-color: #e6e6e6;
+    width: 100vw;
+    top: 66px;
+    margin-left: -20px;
+  }
 
   @media (min-width: $tablet-width) {
     display: flex;
@@ -11,26 +22,22 @@
   }
 
   @media (min-width: $desktop-width) {
-    display: flex;
-    justify-content: space-between;
+    padding-top: 52px;
 
     &::before {
       display: none;
     }
   }
+}
 
-  &::before {
-    position: absolute;
-    content: "";
-    height: 1px;
-    background-color: #e6e6e6;
-    width: 100vw;
-    top: 20px;
-    margin-left: -20px;
-  }
+.header__logo {
+  display: inline-block;
+  min-height: 66px;
 }
 
 .header__type {
+  display: inline-block;
+
   @media (min-width: $tablet-width) {
     display: none;
   }
